@@ -78,7 +78,7 @@ Include geospatial maps for city-wise performance visualization.
 
 [Saloni Verma]
 Data Analyst | Business Intelligence Developer
-📧 [saluverma343@example.com
+📧 [saluverma343@gmail.com
 ]
 
 
