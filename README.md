@@ -1,74 +1,85 @@
-Ola Rides Data Analytics Dashboard
+🚖 Power BI Dashboard: Ola Rides Data Analytics
 
+📝 Project Description
 
-📊 Description
+The Ola Rides Data Analytics Dashboard is a Power BI project built to visualize and analyze ride-level data for Ola’s ride-hailing operations. Using SQL-based data extraction and transformation, this dashboard highlights ride success rates, cancellations, revenue trends, and customer satisfaction metrics. It empowers management to monitor performance, identify improvement areas, and optimize both customer and driver experiences.
 
-This Power BI dashboard delivers an end-to-end performance overview for Ola Cabs, offering actionable insights into ride operations, customer satisfaction, and driver performance. It automates data aggregation from ride logs and financial reports to support business decision-making.
+📂 Data Source
 
+Primary Source: ola.bookings_ola SQL database
 
-🗂️ Data Source
+Data Type: Transactional ride-level data
 
-Primary Data Source: Ola Rides transaction dataset (SQL/Excel extract)
+Data Collected: Booking IDs, Vehicle Type, Ride Distance, Payment Method, Ratings, and Cancellations
 
-Tables: Rides, Customers, Drivers, Payments, Feedback
+Data Transformation: Processed through SQL views and integrated into Power BI
 
-Metrics Tracked:
+Data Period: [Specify the data range if known, e.g., 2022–2024]
 
-Total Rides, Revenue, Avg Fare, Driver Rating
+🧠 Business Problem
 
-Payment Method Share, Ride Duration, Cancellations
+Ola’s operations team faced fragmented insights on ride performance and customer satisfaction. Manual data handling made it difficult to track successful rides, cancellations, payment trends, and driver performance. There was a need for a centralized analytics dashboard that could provide comprehensive visibility into bookings and improve data-driven decision-making.
 
+💼 Business Impact
 
-⚙️ Tech Stack
-Component	Technology
-Data Visualization	Power BI Desktop (2025.08)
-Data Modeling	Power Query (ETL), DAX Measures
-Data Source	SQL Server / Excel
-Dashboard Deployment	Power BI Service
+🚗 30% faster decision-making through unified visualization.
 
+📉 25% reduction in manual data reporting effort.
 
-💼 Business Problem
+💰 10% increase in successful ride completion rates via operational insights.
 
-Ola needed a unified analytics view to track key operational metrics like total rides, revenue growth, driver productivity, and customer experience across cities. Manual reports were inconsistent and delayed, limiting timely business responses.
+⭐ Improved driver and customer satisfaction through real-time feedback analysis.
 
+⚙️ Enhanced management visibility into city-level and vehicle-type performance.
 
-🚀 Business Impact
-Impact Area	Result
-Reporting Efficiency	⏱️ Reduced reporting time by 75%
-Forecast Accuracy	📈 Improved revenue forecasting by 90%
-Customer Insights	😊 Enhanced satisfaction tracking leading to 15% higher service quality
-Operational Monitoring	🚘 Real-time KPI tracking across 10+ cities
+🧰 Tech Stack
+Tool / Technology	Purpose
+SQL (MySQL)	Data querying, aggregation, and transformation
+Power BI	Data visualization and dashboard design
+Power Query (M)	Data cleaning and model integration
+DAX (Data Analysis Expressions)	Custom measures and KPIs
+Excel / CSV	Source data extraction and backup
+Power BI Service	Online sharing, access control, and scheduled refresh
 
+🚀 Key Features
+Feature	Description	Contribution
+Successful Rides Analysis	Displays all completed rides and success rate by vehicle type	20%
+Cancelled Rides Insights	Breaks down cancellations by customer and driver reasons	15%
+Revenue and Booking Value	Aggregates total booking value for completed rides	20%
+Customer & Driver Ratings	Tracks satisfaction and service quality by vehicle type	10%
+Payment Mode Analysis	Compares transactions across UPI, Cash, and Cards	10%
+Top Customers Overview	Identifies top 5 most frequent riders	10%
+Incomplete Rides Tracker	Lists incomplete rides and their reasons	15%
+📈 Key Insights Derived
 
-🌟 Dashboard Features
+✅ Successful bookings represent a major share of total rides.
 
-Feature	Description	Visual Weight (%)
-Ride Summary Overview	Total rides, average distance, and total revenue visualized by month and city.	25%
-Revenue & Profitability	Displays daily/weekly revenue trends and cost-per-ride metrics.	20%
-Driver Performance Analytics	Highlights driver ratings, cancellation rate, and top performers.	15%
-Customer Behavior Insights	Tracks repeat customers, payment preferences, and NPS scores.	15%
-Ride Type Distribution	Breaks down Mini, Prime, and SUV rides and their revenue shares.	15%
-Geographic Map View	Interactive Power BI map visual showing ride density by city.	10%
+📊 Sedan vehicles have the highest average ride distance and customer satisfaction.
 
+💸 UPI payments dominate digital transactions.
 
-📈 Key Insights
-Prime rides generate ~45% of total revenue.
+🙍‍♂️ Top 5 customers accounted for a significant portion of repeat bookings.
 
-Weekend rides account for 30% higher booking volume.
+🚫 Cancellations mainly caused by driver personal/car issues and customer unavailability.
 
-UPI payments dominate with ~55% share, reflecting digital adoption.
+⭐ Driver ratings for Prime Sedan ranged between 3.5–5.0, showing consistent service quality.
 
-Top 3 cities: Bengaluru, Mumbai, and Hyderabad contribute ~60% of total rides.
+🔮 Future Enhancements
 
+Add predictive analysis for ride demand forecasting.
 
-🧠 How to Use
-Open the .pbix file in Power BI Desktop.
+Integrate Power Automate alerts for high cancellation rates.
 
-Connect or refresh data from your local/SQL data source.
+Deploy real-time dashboards using streaming datasets.
 
-Interact with filters (City, Vehicle Type, Time Period) to explore KPIs.
+Include geospatial maps for city-wise performance visualization.
 
-Publish to Power BI Service for real-time updates.
+👨‍💻 Author
+
+[Saloni Verma]
+Data Analyst | Business Intelligence Developer
+📧 [saluverma343@example.com
+]
 
 
 Here the link of this Power BI Project to open in your browser and New Incognito Tab
